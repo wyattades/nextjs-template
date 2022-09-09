@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "dev": "yarn && next dev",
+    "dev": "pnpm i -s && next dev",
     "build": "next build",
     "start": "next start",
     "lint": "eslint . --cache --cache-file tmp/.eslintcache",
